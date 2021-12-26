@@ -1,13 +1,14 @@
 '''
 A ResNet (He, Zhang, Ren and Sun, 2015) in PyTorch.
-It does not contain pre-activation, there is a
-separate implementation for that.
+It does not contain pre-activation.
 
 Reference:
-He, K., Zhang, X., Ren, S. and Sun, J., 2015. Deep Residual Learning for Image Recognition. [ebook] Available at: <https://arxiv.org/pdf/1512.03385.pdf> [Accessed 24 December 2021].
+He, K., Zhang, X., Ren, S. and Sun, J., 2015.
+Deep Residual Learning for Image Recognition.
+[Paper] Available at: <https://arxiv.org/pdf/1512.03385.pdf>
+[Accessed 24 December 2021].
 '''
 
-import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
@@ -18,11 +19,11 @@ class ResNetBlock(nn.Module):
     def __init__(self, in_planes, out_planes, stride=1):
         super(ResNetBlock, self).__init__()
 
-        # First Layer
+        # First layer
         self.conv1 = nn.Conv2d(in_planes, out_planes, kernel_size=3, stride=stride, padding=1, bias=False)
         self.bn1 = nn.BatchNorm2d(out_planes)
 
-        # Second Layer
+        # Second layer
         self.conv2 = nn.Conv2d(out_planes, out_planes, kernel_size=3, stride=1, padding=1, bias=False)
         self.bn2 = nn.BatchNorm2d(out_planes)
 
@@ -34,16 +35,16 @@ class ResNetBlock(nn.Module):
     def forward(self, x):
         input = x
 
-        # First Layer
+        # First layer
         output = self.conv1(input)
         output = self.bn1(output)
         output = F.relu(output)
 
-        # Second Layer
+        # Second layer
         output = self.conv2(output)
         output = self.bn2(output)
 
-        # Residual Network Shortcut
+        # Residual network shortcut
         output += self.shortcut(input)
         output = F.relu(output)
 
@@ -57,15 +58,15 @@ class ResNetBottleneck(nn.Module):
     def __init__(self, in_planes, out_planes, stride=1):
         super(ResNetBottleneck, self).__init__()
 
-        # First Layer
+        # First layer
         self.conv1 = nn.Conv2d(in_planes, out_planes, kernel_size=1, bias=False)
         self.bn1 = nn.BatchNorm2d(out_planes)
 
-        # Second Layer
+        # Second layer
         self.conv2 = nn.Conv2d(out_planes, out_planes, kernel_size=3, stride=stride, padding=1, bias=False)
         self.bn2 = nn.BatchNorm2d(out_planes)
 
-        # Third Layer
+        # Third layer
         self.conv3 = nn.Conv2d(out_planes, self.expansion * out_planes, kernel_size=1, bias=False)
         self.bn3 = nn.BatchNorm2d(self.expansion * out_planes)
 
@@ -76,21 +77,21 @@ class ResNetBottleneck(nn.Module):
     def forward(self, x):
         input = x
 
-        # First Layer
+        # First layer
         output = self.conv1(input)
         output = self.bn1(output)
         output = F.relu(output)
 
-        # Second Layer
+        # Second layer
         output = self.conv2(output)
         output = self.bn2(output)
         output = F.relu(output)
 
-        # Third Layer
+        # Third layer
         output = self.conv3(output)
         output = self.bn3(output)
 
-        # Residual Network Shortcut
+        # Residual network shortcut
         output += self.shortcut(input)
         output = F.relu(output)
 
