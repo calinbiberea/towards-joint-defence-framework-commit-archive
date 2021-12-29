@@ -61,7 +61,7 @@ class LeNet5(nn.Module):
         output = self.conv2(output)
         output = F.relu(output)
         output = self.max_pool_2(output)
-        
+
         # Flatten to match network (16 * 5 * 5), given
         # https://stackoverflow.com/a/42482819/7551231
         output = output.view(-1, 64 * 7 * 7)
@@ -69,7 +69,7 @@ class LeNet5(nn.Module):
         # Third layer
         output = self.fc1(output)
         output = F.relu(output)
-        
+
         # Output
         output = self.fc2(output)
         return output
