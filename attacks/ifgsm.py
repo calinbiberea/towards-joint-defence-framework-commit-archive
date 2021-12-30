@@ -38,10 +38,11 @@ def ifgsm_attack(
         fgsm_images = images + alpha * images.grad.sign()
 
         # Clipping part of the basic iterative method
-        # Clip attack using X' = min{255, X + eps, max{0, X - eps, X'}}
+        # Use 'eps' instead of epsilon to save space
+        # Clip attack using X'' = min{255, X + eps, max{0, X - eps, X'}}
         # which is the same as = min{255, min{X + eps, max{max{0, X - eps}, X'}}}
 
-        # max{0, X-eps}
+        # max{0, X - eps}
         step1 = torch.clamp(images - epsilon, min=0)
 
         # max{max{0, X - eps}, X'}
