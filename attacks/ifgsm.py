@@ -28,11 +28,11 @@ def ifgsm_attack(
 
     for iteration in range(iterations):
         images.requires_grad = True
-        outputs = model(images)
+        logits = model(images)
 
         # Ensure model stays unchanged, then calculate loss and gradients
         model.zero_grad()
-        loss = loss_function(outputs, labels).to(device)
+        loss = loss_function(logits, labels).to(device)
         loss.backward()
 
         fgsm_images = images + alpha * images.grad.sign()
