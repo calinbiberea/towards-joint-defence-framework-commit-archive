@@ -13,7 +13,8 @@ def ifgsm_attack(
   epsilon,
   alpha,
   iterations=0,
-  scale=False
+  scale=False,
+  **kwargs
 ):
     # Clamp value (i.e. make sure pixels lie in 0-255)
     clamp_max = 255

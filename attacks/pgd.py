@@ -12,7 +12,8 @@ def pgd_attack(
   epsilon=0.3,
   alpha=(2 / 255),
   iterations=20,
-  scale=False
+  scale=False,
+  **kwargs
 ):
     # Clamp value (i.e. make sure pixels lie in 0-255)
     clamp_max = 255
@@ -25,6 +26,11 @@ def pgd_attack(
     labels = labels.to(device)
 
     original_images = images.data
+
+    # PGD suggests random start (so it differs from BIM)
+    # Starting at a uniformly random point in the given epsilon range
+    images = images + torch.empty_like(images).uniform_(-epsilon, epsilon)
+    images = torch.clamp(images, max=clamp_max).detach()
 
     for iteration in range(iterations):
         images.requires_grad = True
