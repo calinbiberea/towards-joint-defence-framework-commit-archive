@@ -30,7 +30,7 @@ def pgd_attack(
     # PGD suggests random start (so it differs from BIM)
     # Starting at a uniformly random point in the given epsilon range
     images = images + torch.empty_like(images).uniform_(-epsilon, epsilon)
-    images = torch.clamp(images, max=clamp_max).detach()
+    images = torch.clamp(images, min=0, max=clamp_max).detach()
 
     for iteration in range(iterations):
         images.requires_grad = True
@@ -48,6 +48,6 @@ def pgd_attack(
         eta = torch.clamp(fgsm_images - original_images, min=-epsilon, max=epsilon)
 
         # Clamp again to keep in the right pixel (possibly normalised) intervals
-        images = torch.clamp(original_images + eta, max=clamp_max).detach_()
+        images = torch.clamp(original_images + eta, min=0, max=clamp_max).detach_()
 
     return images

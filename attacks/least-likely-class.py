@@ -56,7 +56,7 @@ def ifgsm_attack(
         step3 = (step2 > (images + epsilon)).float() * (images + epsilon) + (images + epsilon >= step2).float() * step2
 
         # min{255, min{X + eps, max{max{0, X - eps}, X'}}}
-        images = torch.clamp(step3, max=clamp_max).detach_()
+        images = torch.clamp(step3, min=0, max=clamp_max).detach_()
         images = images.to(device)
 
     # Return the perturbed images

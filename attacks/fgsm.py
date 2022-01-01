@@ -36,7 +36,7 @@ def fgsm_attack(
     perturbed_image = images + epsilon * images.grad.sign()
 
     # Make sure pixels' values lie in correct range
-    perturbed_image = torch.clamp(perturbed_image, max=clamp_max)
+    perturbed_image = torch.clamp(perturbed_image, min=0, max=clamp_max)
 
     # Return the perturbed images
     return perturbed_image

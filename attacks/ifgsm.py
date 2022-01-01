@@ -25,7 +25,10 @@ def ifgsm_attack(
 
     # The paper gives this formula for managing iterations
     if iterations == 0:
-        iterations = int(min(epsilon + 4, 1.25 * epsilon))
+        if scale:
+            iterations = int(min(255 * epsilon + 4, 1.25 * epsilon * 255))
+        else:
+            iterations = int(min(epsilon + 4, 1.25 * epsilon))
 
     for iteration in range(iterations):
         images.requires_grad = True
@@ -50,10 +53,10 @@ def ifgsm_attack(
         step2 = (fgsm_images >= step1).float() * fgsm_images + (step1 > fgsm_images).float() * step1
 
         # min{X + eps, max{max{0, X - eps}, X'}}
-        step3 = (step2 > (images + epsilon)).float() * (images + epsilon) + (images + epsilon >= step2).float() * step2
+        step3 = (step2 > (images + epsilon)).float() * (images + epsilon) + ((images + epsilon) >= step2).float() * step2
 
         # min{255, min{X + eps, max{max{0, X - eps}, X'}}}
-        images = torch.clamp(step3, max=clamp_max).detach_()
+        images = torch.clamp(step3, min=0, max=clamp_max).detach_()
         images = images.to(device)
 
     # Return the perturbed images
