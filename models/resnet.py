@@ -13,6 +13,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
+# Basically the BasicBlock
 class ResNetBlock(nn.Module):
     expansion = 1
 
@@ -52,6 +53,7 @@ class ResNetBlock(nn.Module):
 
 
 # Deeper variants require a more complex building block to avoid saturation (hence the name)
+# Basically the Bottleneck
 class ResNetBottleneck(nn.Module):
     expansion = 4
 
@@ -110,10 +112,10 @@ class ResNet(nn.Module):
         self.bn1 = nn.BatchNorm2d(64)
 
         # The residual network layers constructed with the above components
-        self.res_layer1 = self._construct_layer_from_block(block, 64, num_blocks_per_layer[0], stride=1)
-        self.res_layer2 = self._construct_layer_from_block(block, 128, num_blocks_per_layer[1], stride=2)
-        self.res_layer3 = self._construct_layer_from_block(block, 256, num_blocks_per_layer[2], stride=2)
-        self.res_layer4 = self._construct_layer_from_block(block, 512, num_blocks_per_layer[3], stride=2)
+        self.layer1 = self._construct_layer_from_block(block, 64, num_blocks_per_layer[0], stride=1)
+        self.layer2 = self._construct_layer_from_block(block, 128, num_blocks_per_layer[1], stride=2)
+        self.layer3 = self._construct_layer_from_block(block, 256, num_blocks_per_layer[2], stride=2)
+        self.layer4 = self._construct_layer_from_block(block, 512, num_blocks_per_layer[3], stride=2)
 
         # Final layer which is matched with the 10 classes
         self.linear = nn.Linear(512 * block.expansion, num_classes)
@@ -140,10 +142,10 @@ class ResNet(nn.Module):
         output = F.relu(output)
 
         # Go through the residual layers
-        output = self.res_layer1(output)
-        output = self.res_layer2(output)
-        output = self.res_layer3(output)
-        output = self.res_layer4(output)
+        output = self.layer1(output)
+        output = self.layer2(output)
+        output = self.layer3(output)
+        output = self.layer4(output)
 
         # Average and then get one line
         output = F.avg_pool2d(output, 4)

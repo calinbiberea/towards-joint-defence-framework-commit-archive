@@ -1,9 +1,21 @@
 # Dataset processing and loading imports
+import torch
 import torch.utils.data as DataUtils
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 from torch.utils.data.sampler import SubsetRandomSampler
 import numpy as np
+
+
+# Calculations for normalising to the right range
+cifar10_mean = (0.4914, 0.4822, 0.4465)
+cifar10_std = (0.2471, 0.2435, 0.2616)
+
+mu = torch.tensor(cifar10_mean).view(3, 1, 1).cuda()
+std = torch.tensor(cifar10_std).view(3, 1, 1).cuda()
+
+upper_limit = ((1 - mu) / std)
+lower_limit = ((0 - mu) / std)
 
 
 # The good (CIFAR-10) model has batch size 128, but cannot do adversarial attacks with it (out of memory)
@@ -13,9 +25,17 @@ def get_CIFAR10_data_loaders(
 
     # Create a separate transform for each dataset
     # (in case we decide to transform differently)
-    trainSetTransform = transforms.Compose([transforms.ToTensor()])
-    validationSetTransform = transforms.Compose([transforms.ToTensor()])
-    testSetTransform = transforms.Compose([transforms.ToTensor()])
+    trainSetTransform = transforms.Compose([
+        transforms.RandomCrop(32, padding=4),
+        transforms.RandomHorizontalFlip(),
+        transforms.ToTensor(),
+    ])
+    validationSetTransform = transforms.Compose([
+        transforms.ToTensor(),
+    ])
+    testSetTransform = transforms.Compose([
+        transforms.ToTensor(),
+    ])
 
     # Download the dataset (note we technically use the same set for validation
     # and training)
@@ -36,17 +56,27 @@ def get_CIFAR10_data_loaders(
     # Construct random samplers (for better training)
     trainSetSampler = SubsetRandomSampler(indices[:trainSetSize])
     validationSetSampler = SubsetRandomSampler(indices[trainSetSize:])
-    testSetSampler = SubsetRandomSampler(np.arange(0, testSetSize))
 
     # Finally, construct the loaders that will be used to get images
     trainSetLoader = DataUtils.DataLoader(
-        trainSet, batch_size=batchSize, sampler=trainSetSampler
+        trainSet,
+        batch_size=batchSize,
+        sampler=trainSetSampler,
+        pin_memory=True,
+        num_workers=2
     )
     validationSetLoader = DataUtils.DataLoader(
-        validationSet, batch_size=batchSize, sampler=validationSetSampler
+        validationSet, batch_size=batchSize,
+        sampler=validationSetSampler,
+        pin_memory=True,
+        num_workers=2
     )
     testSetLoader = DataUtils.DataLoader(
-        testSet, batch_size=batchSize, sampler=testSetSampler
+        testSet,
+        batch_size=batchSize,
+        shuffle=False,
+        pin_memory=True,
+        num_workers=2
     )
 
     # Return the loaders
