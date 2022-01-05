@@ -127,3 +127,49 @@ def get_MNIST_data_loaders(
 
     # Return the loaders
     return trainSetLoader, validationSetLoader, testSetLoader
+
+
+def get_Fashion_MNIST_data_loaders(
+    DATA_ROOT, batchSize=64, trainSetSize=50000, validationSetSize=10000, testSetSize=10000
+):
+
+    # Create a separate transform for each dataset
+    # (in case we decide to transform differently)
+    trainSetTransform = transforms.Compose([transforms.ToTensor()])
+    validationSetTransform = transforms.Compose([transforms.ToTensor()])
+    testSetTransform = transforms.Compose([transforms.ToTensor()])
+
+    # Download the dataset (note we technically use the same set for validation
+    # and training)
+    trainSet = datasets.FashionMNIST(
+        root=DATA_ROOT, download=True, train=True, transform=trainSetTransform
+    )
+    validationSet = datasets.FashionMNIST(
+        root=DATA_ROOT, download=True, train=True, transform=validationSetTransform
+    )
+    testSet = datasets.FashionMNIST(
+        root=DATA_ROOT, download=True, train=False, transform=testSetTransform
+    )
+
+    # Get the training indices to split into training and validation sets
+    indices = np.arange(0, trainSetSize + validationSetSize)
+    np.random.shuffle(indices)
+
+    # Construct random samplers (for better training)
+    trainSetSampler = SubsetRandomSampler(indices[:trainSetSize])
+    validationSetSampler = SubsetRandomSampler(indices[trainSetSize:])
+    testSetSampler = SubsetRandomSampler(np.arange(0, testSetSize))
+
+    # Finally, construct the loaders that will be used to get images
+    trainSetLoader = DataUtils.DataLoader(
+        trainSet, batch_size=batchSize, sampler=trainSetSampler
+    )
+    validationSetLoader = DataUtils.DataLoader(
+        validationSet, batch_size=batchSize, sampler=validationSetSampler
+    )
+    testSetLoader = DataUtils.DataLoader(
+        testSet, batch_size=batchSize, sampler=testSetSampler
+    )
+
+    # Return the loaders
+    return trainSetLoader, validationSetLoader, testSetLoader
