@@ -130,3 +130,11 @@ def print_attack(model, testSetLoader, attack_name, attack_function, number_of_i
         correct_image_broken += 1
         if correct_image_broken >= number_of_images:
             break
+
+
+# Helper function for plotting the gradients
+def print_gradient(gradient):
+    plt.style.use("classic")
+    numpy_gradient_sign = np.sign(gradient.cpu().detach().numpy())
+    plt.imshow(np.transpose(numpy_gradient_sign, (1, 2, 0)))
+    plt.show()
