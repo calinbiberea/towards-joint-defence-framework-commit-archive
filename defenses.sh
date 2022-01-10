@@ -7,4 +7,4 @@ source activate
 source /vol/cuda/11.0.3-cudnn8.0.5.39/setup.sh
 TERM=vt100 # or TERM=xterm
 
-python test.py
+python defenses.py > defenses.output
