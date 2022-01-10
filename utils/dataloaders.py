@@ -63,20 +63,20 @@ def get_CIFAR10_data_loaders(
         batch_size=batchSize,
         sampler=trainSetSampler,
         pin_memory=True,
-        num_workers=2
+        num_workers=8
     )
     validationSetLoader = DataUtils.DataLoader(
         validationSet, batch_size=batchSize,
         sampler=validationSetSampler,
         pin_memory=True,
-        num_workers=2
+        num_workers=8
     )
     testSetLoader = DataUtils.DataLoader(
         testSet,
         batch_size=batchSize,
         shuffle=False,
         pin_memory=True,
-        num_workers=2
+        num_workers=8
     )
 
     # Return the loaders
@@ -116,13 +116,13 @@ def get_MNIST_data_loaders(
 
     # Finally, construct the loaders that will be used to get images
     trainSetLoader = DataUtils.DataLoader(
-        trainSet, batch_size=batchSize, sampler=trainSetSampler
+        trainSet, batch_size=batchSize, sampler=trainSetSampler, num_workers=8
     )
     validationSetLoader = DataUtils.DataLoader(
-        validationSet, batch_size=batchSize, sampler=validationSetSampler
+        validationSet, batch_size=batchSize, sampler=validationSetSampler, num_workers=8
     )
     testSetLoader = DataUtils.DataLoader(
-        testSet, batch_size=batchSize, sampler=testSetSampler
+        testSet, batch_size=batchSize, sampler=testSetSampler, num_workers=8
     )
 
     # Return the loaders
@@ -162,13 +162,13 @@ def get_Fashion_MNIST_data_loaders(
 
     # Finally, construct the loaders that will be used to get images
     trainSetLoader = DataUtils.DataLoader(
-        trainSet, batch_size=batchSize, sampler=trainSetSampler
+        trainSet, batch_size=batchSize, sampler=trainSetSampler, num_workers=8
     )
     validationSetLoader = DataUtils.DataLoader(
-        validationSet, batch_size=batchSize, sampler=validationSetSampler
+        validationSet, batch_size=batchSize, sampler=validationSetSampler, num_workers=8
     )
     testSetLoader = DataUtils.DataLoader(
-        testSet, batch_size=batchSize, sampler=testSetSampler
+        testSet, batch_size=batchSize, sampler=testSetSampler, num_workers=8
     )
 
     # Return the loaders
@@ -208,13 +208,13 @@ def get_SVHN_data_loaders(
 
     # Finally, construct the loaders that will be used to get images
     trainSetLoader = DataUtils.DataLoader(
-        trainSet, batch_size=batchSize, sampler=trainSetSampler
+        trainSet, batch_size=batchSize, sampler=trainSetSampler, num_workers=8
     )
     validationSetLoader = DataUtils.DataLoader(
-        validationSet, batch_size=batchSize, sampler=validationSetSampler
+        validationSet, batch_size=batchSize, sampler=validationSetSampler, num_workers=8
     )
     testSetLoader = DataUtils.DataLoader(
-        testSet, batch_size=batchSize, sampler=testSetSampler
+        testSet, batch_size=batchSize, sampler=testSetSampler, num_workers=8
     )
 
     # Return the loaders
