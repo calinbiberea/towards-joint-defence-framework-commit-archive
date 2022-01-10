@@ -14,7 +14,7 @@ import torch
 import torch.nn as nn
 
 # Nice loading bars
-from tqdm.notebook import tnrange, tqdm
+from tqdm import tnrange, tqdm
 
 # DNN used
 import models.resnet as resnet
