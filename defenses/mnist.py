@@ -480,7 +480,7 @@ def ALP_training(
   attack_name,
   attack_function,
   load_if_available=False,
-  load_path="../models_data/MNIST/mnist_interpolated_adversarial",
+  load_path="../models_data/MNIST/mnist_alp",
   **kwargs
 ):
     # Various training parameters

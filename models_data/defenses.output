@@ -1,0 +1,5455 @@
+Notebook will use PyTorch Device: CUDA
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Training the model using adversarial examples...
+Adversarial Training Progress:   0%|          | 0/200 [00:00<?, ?it/s]
+Loss is  875.3351247310638
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 26.13%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 9.73%
+
+
+Loss is  639.657518029213
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.84%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 5.7%
+
+
+Loss is  536.7125844359398
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.92%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 4.0%
+
+
+Loss is  455.97242027521133
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.9%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 3.06%
+
+
+Loss is  364.52570897340775
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 46.04%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.93%
+
+
+Loss is  295.60444661974907
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.86%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.72%
+
+
+Loss is  358.3852289915085
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.14%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 4.34%
+
+
+Loss is  227.38485758006573
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 47.92%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.84%
+
+
+Loss is  132.6380496919155
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 51.47%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.01%
+
+
+Loss is  196.7122405320406
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 52.38%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.26%
+
+
+Loss is  225.25846979022026
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 52.08%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.3%
+
+
+Loss is  121.47594448179007
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 53.72%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.98%
+
+
+Loss is  152.76200691610575
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 52.05%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.31%
+
+
+Loss is  143.49188619852066
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 54.8%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.47%
+
+
+Loss is  360.3005540072918
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.56%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 6.69%
+
+
+Loss is  251.90801233053207
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 55.51%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.22%
+
+
+Loss is  125.38562944531441
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.67%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.81%
+
+
+Loss is  127.28723434358835
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 56.65%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.5%
+
+
+Loss is  136.6423897370696
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 56.3%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.12%
+
+
+Loss is  102.57857558131218
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.57%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.81%
+
+
+Loss is  99.94880949705839
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.24%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.12%
+
+
+Loss is  119.16610944271088
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.52%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.16%
+
+
+Loss is  94.42110069841146
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.05%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.9%
+
+
+Loss is  70.90696315467358
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.2%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.72%
+
+
+Loss is  221.22643812000751
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 55.44%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.11%
+
+
+Loss is  202.90062806010246
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.73%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.84%
+
+
+Loss is  270.5308541357517
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.27%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.51%
+
+
+Loss is  176.8541500121355
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.63%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.02%
+
+
+Loss is  377.65048667788506
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 57.43%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.8%
+
+
+Loss is  332.5616143941879
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.93%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 6.82%
+
+
+Loss is  420.02518594264984
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 55.46%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.24%
+
+
+Loss is  114.439352825284
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.05%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.46%
+
+
+Loss is  121.15180618315935
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.56%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.88%
+
+
+Loss is  99.12272127717733
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.98%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.3%
+
+
+Loss is  88.34670666605234
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.93%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.08%
+
+
+Loss is  149.73793678730726
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.99%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 6.53%
+
+
+Loss is  334.157089561224
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.03%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.08%
+
+
+Loss is  144.10822236537933
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.2%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.51%
+
+
+Loss is  105.99519052356482
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.33%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.15%
+
+
+Loss is  112.38318802416325
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.09%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.47%
+
+
+Loss is  99.87696722149849
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.91%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.17%
+
+
+Loss is  123.06620101630688
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.31%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.3%
+
+
+Loss is  89.7736891657114
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.97%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.84%
+
+
+Loss is  71.36097687110305
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.54%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.9%
+
+
+Loss is  153.45096238702536
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.07%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.94%
+
+
+Loss is  103.51402689516544
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.36%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.54%
+
+
+Loss is  81.52675228565931
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.23%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.9%
+
+
+Loss is  84.01974814012647
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.69%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.69%
+
+
+Loss is  73.32443485409021
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.2%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.65%
+
+
+Loss is  248.9729442819953
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 54.84%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 5.0%
+
+
+Loss is  294.44952031970024
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.67%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.81%
+
+
+Loss is  90.57773124426603
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.08%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.88%
+
+
+Loss is  84.07955753430724
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.2%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.51%
+
+
+Loss is  108.88286405429244
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 54.62%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.41%
+
+
+Loss is  132.68171637505293
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.87%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.86%
+
+
+Loss is  113.83935488760471
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.62%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.3%
+
+
+Loss is  118.769073151052
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.73%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.93%
+
+
+Loss is  147.05372824519873
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.95%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.96%
+
+
+Loss is  150.60330021381378
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.41%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.84%
+
+
+Loss is  116.59935562312603
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.54%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.27%
+
+
+Loss is  117.45802771300077
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.88%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.92%
+
+
+Loss is  114.25457277148962
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.49%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.76%
+
+
+Loss is  83.72191852331161
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.71%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.75%
+
+
+Loss is  124.97087071835995
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.07%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.7%
+
+
+Loss is  90.34303083270788
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.4%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.84%
+
+
+Loss is  84.00318190455437
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.58%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.6%
+
+
+Loss is  78.00965418666601
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.26%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.8%
+
+
+Loss is  119.85613944381475
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.94%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.66%
+
+
+Loss is  79.35380695015192
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.11%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.46%
+
+
+Loss is  89.7300228253007
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.98%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.13%
+
+
+Loss is  86.26033940911293
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.57%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.6%
+
+
+Loss is  75.88718931376934
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.1%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.5%
+
+
+Loss is  90.05784318596125
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.65%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.92%
+
+
+Loss is  148.61671076714993
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.38%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.17%
+
+
+Loss is  91.83086343109608
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.27%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.25%
+
+
+Loss is  81.59080965816975
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.06%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.01%
+
+
+Loss is  85.8578050583601
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.71%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.09%
+
+
+Loss is  75.61071817949414
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.61%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.78%
+
+
+Loss is  80.21679151058197
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.16%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.71%
+
+
+Loss is  104.2509655803442
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.66%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.64%
+
+
+Loss is  79.48535203933716
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.28%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.66%
+
+
+Loss is  114.95346208661795
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.94%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.37%
+
+
+Loss is  91.17208230495453
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.0%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.11%
+
+
+Loss is  88.30073593556881
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.39%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.01%
+
+
+Loss is  90.06703094393015
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.32%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.48%
+
+
+Loss is  85.87330880016088
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.05%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.1%
+
+
+Loss is  86.44994763284922
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.04%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.81%
+
+
+Loss is  82.4852639734745
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.26%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.27%
+
+
+Loss is  83.36818140372634
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.51%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.67%
+
+
+Loss is  67.59395640715957
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.54%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.96%
+
+
+Loss is  71.70879913121462
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.65%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.72%
+
+
+Loss is  67.4222007561475
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.47%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.67%
+
+
+Loss is  91.49590501189232
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.15%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.23%
+
+
+Loss is  76.25418426841497
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.17%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.75%
+
+
+Loss is  68.3985763527453
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.44%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.03%
+
+
+Loss is  83.52074681222439
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.35%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.95%
+
+
+Loss is  79.37284947931767
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.35%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.89%
+
+
+Loss is  77.6731287650764
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.18%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.66%
+
+
+Loss is  78.59702488780022
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.54%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.28%
+
+
+Loss is  78.4729597941041
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.94%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.94%
+
+
+Loss is  92.12147226184607
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.65%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.81%
+
+
+Loss is  94.44934299588203
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.24%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.24%
+
+
+Loss is  76.94846658408642
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.84%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.39%
+
+
+Loss is  84.09804393351078
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.4%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.97%
+
+
+Loss is  69.27022478356957
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.45%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.56%
+
+
+Loss is  75.94790226593614
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.97%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.0%
+
+
+Loss is  77.16451927646995
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.64%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.54%
+
+
+Loss is  84.33581840619445
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.1%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.98%
+
+
+Loss is  94.56394287571311
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.1%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.9%
+
+
+Loss is  99.46207562834024
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.18%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.26%
+
+
+Loss is  92.46382025629282
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.81%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.93%
+
+
+Loss is  80.4176743477583
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.63%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.13%
+
+
+Loss is  81.06085653603077
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.21%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.87%
+
+
+Loss is  84.25824302434921
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.3%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.94%
+
+
+Loss is  73.18347408995032
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.25%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.79%
+
+
+Loss is  75.29768594354391
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.0%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.54%
+
+
+Loss is  72.37388422712684
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.64%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.93%
+
+
+Loss is  76.33122282847762
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.36%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.67%
+
+
+Loss is  75.73889558389783
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.52%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.16%
+
+
+Loss is  72.17094935849309
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.47%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.88%
+
+
+Loss is  69.53134390711784
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.54%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.85%
+
+
+Loss is  72.84077047929168
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.59%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.06%
+
+
+Loss is  73.1694987937808
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.14%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.16%
+
+
+Loss is  66.83504154533148
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.84%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.85%
+
+
+Loss is  75.0178996026516
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.05%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.17%
+
+
+Loss is  67.09348982945085
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.0%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.21%
+
+
+Loss is  69.74015600606799
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.37%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.65%
+
+
+Loss is  67.98870262503624
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.31%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.04%
+
+
+Loss is  71.9109026864171
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.44%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.88%
+
+
+Loss is  62.639311488717794
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.57%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.72%
+
+
+Loss is  68.60577766597271
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.06%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.59%
+
+
+Loss is  69.00402890518308
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.82%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.64%
+
+
+Loss is  63.77391564100981
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.49%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.68%
+
+
+Loss is  70.35504940897226
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.86%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.13%
+
+
+Loss is  65.4748002961278
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.15%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.07%
+
+
+Loss is  68.43502485007048
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.44%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.61%
+
+
+Loss is  65.91711808741093
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.5%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.64%
+
+
+Loss is  68.30521193519235
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.86%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.77%
+
+
+Loss is  76.10818170756102
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.49%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.08%
+
+
+Loss is  68.35955258831382
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.65%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.92%
+
+
+Loss is  67.33965462446213
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.68%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.27%
+
+
+Loss is  58.78566136956215
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.0%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.32%
+
+
+Loss is  66.03985196352005
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.32%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.65%
+
+
+Loss is  66.86453761905432
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.58%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.76%
+
+
+Loss is  60.6035646982491
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.35%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.99%
+
+
+Loss is  66.33640929497778
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.14%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.59%
+
+
+Loss is  65.0796292796731
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.14%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.33%
+
+
+Loss is  66.57108535990119
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.22%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.77%
+
+
+Loss is  63.35036936029792
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.82%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.17%
+
+
+Loss is  65.18767013028264
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.23%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.18%
+
+
+Loss is  68.51539372652769
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 75.7%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.21%
+
+
+Loss is  53.516533851623535
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 75.97%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.29%
+
+
+Loss is  58.31587941944599
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 75.91%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.91%
+
+
+Loss is  108.94055881351233
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 74.63%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.94%
+
+
+Loss is  74.16882407292724
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 74.39%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.0%
+
+
+Loss is  78.81772174313664
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 74.41%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.58%
+
+
+Loss is  204.1283621788025
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 73.1%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.08%
+
+
+Loss is  158.34734645485878
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.55%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.16%
+
+
+Loss is  114.61026667058468
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 73.91%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.75%
+
+
+Loss is  137.02399243414402
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.95%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.76%
+
+
+Loss is  83.74637907743454
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.71%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.5%
+
+
+Loss is  59.312829710543156
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.49%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.82%
+
+
+Loss is  437.5707539767027
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.05%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.9%
+
+
+Loss is  232.77207645773888
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.95%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.21%
+
+
+Loss is  195.1179207265377
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 55.32%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.02%
+
+
+Loss is  294.90743321180344
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 56.57%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.32%
+
+
+Loss is  413.95395320653915
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 51.12%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.5%
+
+
+Loss is  573.8433239459991
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.22%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 5.65%
+
+
+Loss is  560.2956144809723
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 48.45%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 4.83%
+
+
+Loss is  404.36386266350746
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 48.68%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.03%
+
+
+Loss is  298.09805712103844
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 48.9%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.18%
+
+
+Loss is  304.3044358789921
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 49.94%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.07%
+
+
+Loss is  276.0586025416851
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 49.86%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.93%
+
+
+Loss is  243.7942827641964
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 49.51%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.53%
+
+
+Loss is  245.9731652289629
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 47.91%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.09%
+
+
+Loss is  232.09450145065784
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 48.61%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.46%
+
+
+Loss is  207.7115454301238
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.95%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.78%
+
+
+Loss is  198.8146693855524
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 47.9%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.31%
+
+
+Loss is  184.04028338938951
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 50.94%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.13%
+
+
+Loss is  205.28320280462503
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 51.23%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.9%
+
+
+Loss is  159.88691049814224
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.52%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.75%
+
+
+Loss is  162.6525433808565
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 51.47%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.44%
+
+
+Loss is  177.34404408186674
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 53.17%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.81%
+
+
+Loss is  178.31296357512474
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 49.3%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.92%
+
+
+Loss is  187.20804622024298
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 51.07%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.14%
+
+
+Loss is  148.57777959108353
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 50.51%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.82%
+
+
+Loss is  150.36241578310728
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 46.78%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.97%
+
+
+Loss is  148.3499272465706
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 50.79%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.33%
+
+
+Loss is  170.30620407313108
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 49.87%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.81%
+
+
+Loss is  168.54883421212435
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 52.12%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.94%
+
+
+Loss is  140.85113243758678
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 52.27%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.57%
+
+
+Loss is  156.47157645225525
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 52.36%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.12%
+
+
+Loss is  150.03753996640444
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 52.13%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.76%
+
+
+Loss is  131.1096210218966
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 53.24%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.23%
+
+
+Loss is  121.90034660324454
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 52.86%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.93%
+
+
+Loss is  148.47134325653315
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 51.83%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.89%
+
+
+Loss is  117.36566244065762
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 49.49%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.13%
+
+
+Loss is  113.24617581441998
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 49.89%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.97%
+
+
+Loss is  110.2612321190536
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 50.14%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.33%
+
+
+Loss is  108.51186149194837
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 54.91%
+Testing the model under FGSM Attack using epsilon = 0.075, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.7%
+
+
+... done!
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 54.91%
+Testing the model under FGSM Attack using epsilon = 0, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 54.91%
+
+
+Testing the model under FGSM Attack using epsilon = 0.05, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 2.26%
+
+
+Testing the model under FGSM Attack using epsilon = 0.1, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.42%
+
+
+Testing the model under FGSM Attack using epsilon = 0.2, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.79%
+
+
+Testing the model under FGSM Attack using epsilon = 0.35, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 3.45%
+
+
+Testing the model under FGSM Attack using epsilon = 0.55, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 6.35%
+
+
+Testing the model under PGD Attack using epsilon = 0, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 54.91%
+
+
+Testing the model under PGD Attack using epsilon = 0.05, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.92%
+
+
+Testing the model under PGD Attack using epsilon = 0.01568627450980392, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 21.16%
+
+
+Testing the model under PGD Attack using epsilon = 0.1, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.07%
+
+
+Testing the model under PGD Attack using epsilon = 0.3, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.0%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 54.91%
+Training the model using adversarial examples...
+Adversarial Training Progress:   0%|          | 0/200 [00:00<?, ?it/s]
+Loss is  834.5553542375565
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 34.95%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 24.48%
+
+
+Loss is  757.616911649704
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.72%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 27.41%
+
+
+Loss is  727.5528925657272
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 47.41%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 31.77%
+
+
+Loss is  703.4451318979263
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 46.79%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 31.58%
+
+
+Loss is  683.7911109924316
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 50.61%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 31.41%
+
+
+Loss is  667.8823326826096
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 56.56%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.51%
+
+
+Loss is  653.0124952793121
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 53.63%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 33.87%
+
+
+Loss is  642.3301391601562
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.73%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.85%
+
+
+Loss is  630.4826514720917
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.88%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.66%
+
+
+Loss is  622.2908582687378
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.3%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.34%
+
+
+Loss is  613.6796568632126
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.87%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.81%
+
+
+Loss is  605.8947250843048
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.75%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.45%
+
+
+Loss is  599.4979215860367
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.41%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.1%
+
+
+Loss is  593.7620838880539
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.9%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.74%
+
+
+Loss is  591.0783603191376
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.58%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.89%
+
+
+Loss is  584.7756938934326
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.38%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.27%
+
+
+Loss is  581.4517508745193
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.94%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.25%
+
+
+Loss is  576.9395347833633
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.0%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.15%
+
+
+Loss is  571.6196806430817
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.04%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.38%
+
+
+Loss is  568.7544182538986
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.45%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.7%
+
+
+Loss is  565.6339364051819
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.02%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.86%
+
+
+Loss is  561.494925737381
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.68%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.06%
+
+
+Loss is  559.718767285347
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.86%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.5%
+
+
+Loss is  555.446581363678
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.27%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.85%
+
+
+Loss is  552.0268181562424
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.77%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.01%
+
+
+Loss is  548.2374140024185
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.46%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.32%
+
+
+Loss is  543.8285764455795
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.3%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.85%
+
+
+Loss is  543.3266707658768
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.03%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.38%
+
+
+Loss is  535.7062877416611
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.83%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.32%
+
+
+Loss is  534.0146894454956
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.54%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.12%
+
+
+Loss is  529.227153301239
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.55%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.53%
+
+
+Loss is  526.6074211597443
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.48%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.16%
+
+
+Loss is  520.9396991729736
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.18%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.25%
+
+
+Loss is  518.5548701286316
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.21%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.33%
+
+
+Loss is  517.7617703676224
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.6%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.18%
+
+
+Loss is  510.4019901752472
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.41%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.82%
+
+
+Loss is  508.03292685747147
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.53%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.06%
+
+
+Loss is  505.7258880138397
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.61%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.03%
+
+
+Loss is  499.1664432287216
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.69%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.04%
+
+
+Loss is  491.5991003513336
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.52%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.73%
+
+
+Loss is  492.4626262187958
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.66%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.5%
+
+
+Loss is  485.0608975291252
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.23%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.75%
+
+
+Loss is  483.1460806131363
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.6%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.42%
+
+
+Loss is  477.2590077519417
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.57%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.46%
+
+
+Loss is  468.00607550144196
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.46%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.22%
+
+
+Loss is  462.9757179617882
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.62%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.38%
+
+
+Loss is  464.2262073755264
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.88%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.07%
+
+
+Loss is  449.3339402079582
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.08%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.94%
+
+
+Loss is  443.79341447353363
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.52%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.52%
+
+
+Loss is  437.2405943274498
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.3%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.64%
+
+
+Loss is  428.11083406209946
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.28%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.79%
+
+
+Loss is  428.10861599445343
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.75%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.29%
+
+
+Loss is  418.4765831232071
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.1%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.68%
+
+
+Loss is  413.8302406668663
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.45%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.86%
+
+
+Loss is  411.7980497479439
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.36%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.47%
+
+
+Loss is  413.773236989975
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.97%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.11%
+
+
+Loss is  405.47210466861725
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.97%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.5%
+
+
+Loss is  397.3926822543144
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.7%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.96%
+
+
+Loss is  389.697174847126
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.44%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.93%
+
+
+Loss is  385.53733229637146
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.43%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.7%
+
+
+Loss is  375.67715406417847
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.05%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.65%
+
+
+Loss is  376.8953677415848
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.64%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.05%
+
+
+Loss is  369.30319970846176
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.89%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.83%
+
+
+Loss is  357.6108410358429
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.88%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.09%
+
+
+Loss is  353.6271559894085
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 73.41%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.03%
+
+
+Loss is  348.5652615427971
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.16%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.06%
+
+
+Loss is  338.2324725985527
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.67%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.61%
+
+
+Loss is  331.19282072782516
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.91%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.41%
+
+
+Loss is  322.97583106160164
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.13%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.73%
+
+
+Loss is  310.2882270812988
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.53%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.93%
+
+
+Loss is  317.1597373187542
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.85%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.7%
+
+
+Loss is  315.7001322209835
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.86%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.53%
+
+
+Loss is  304.5218151807785
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.84%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.71%
+
+
+Loss is  303.4032862186432
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.08%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.91%
+
+
+Loss is  293.42113810777664
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.98%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.27%
+
+
+Loss is  291.08395090699196
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.47%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.01%
+
+
+Loss is  290.88417583703995
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 73.49%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.53%
+
+
+Loss is  285.45749682188034
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.83%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.82%
+
+
+Loss is  287.43423572182655
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.05%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.9%
+
+
+Loss is  285.85251262784004
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.51%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.39%
+
+
+Loss is  284.5860952734947
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.74%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.57%
+
+
+Loss is  282.28578957915306
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.93%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.34%
+
+
+Loss is  283.44963452219963
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.6%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.52%
+
+
+Loss is  279.7510352730751
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.77%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.89%
+
+
+Loss is  278.4021678864956
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.08%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.33%
+
+
+Loss is  276.75206434726715
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.7%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.63%
+
+
+Loss is  268.8776119053364
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.94%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.95%
+
+
+Loss is  268.36872830986977
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.11%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.18%
+
+
+Loss is  271.6747806966305
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.64%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.71%
+
+
+Loss is  267.6193864643574
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.55%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.02%
+
+
+Loss is  262.61432605981827
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.81%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.69%
+
+
+Loss is  263.27080780267715
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.85%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.49%
+
+
+Loss is  258.25705921649933
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.33%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.81%
+
+
+Loss is  250.62111207842827
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.76%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.67%
+
+
+Loss is  254.4786302447319
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.98%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.81%
+
+
+Loss is  250.21639680862427
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.19%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.16%
+
+
+Loss is  244.56828808784485
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.85%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.19%
+
+
+Loss is  243.0377717912197
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.46%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.8%
+
+
+Loss is  244.41336488723755
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.19%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.21%
+
+
+Loss is  240.95478969812393
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.85%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.18%
+
+
+Loss is  236.89733138680458
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.74%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.26%
+
+
+Loss is  235.29760140180588
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.55%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.61%
+
+
+Loss is  239.67546212673187
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.2%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.47%
+
+
+Loss is  232.2937903702259
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.76%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.88%
+
+
+Loss is  237.85364618897438
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.15%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.67%
+
+
+Loss is  229.69718205928802
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.86%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.02%
+
+
+Loss is  227.51439774036407
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 73.45%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.01%
+
+
+Loss is  228.32733300328255
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.09%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.13%
+
+
+Loss is  229.211200684309
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.51%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.67%
+
+
+Loss is  226.46414652466774
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.13%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.53%
+
+
+Loss is  229.58528286218643
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.59%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.05%
+
+
+Loss is  225.5394932627678
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.81%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.25%
+
+
+Loss is  222.5147286951542
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.9%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.92%
+
+
+Loss is  221.71298879384995
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.75%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.47%
+
+
+Loss is  231.44654563069344
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.9%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.71%
+
+
+Loss is  226.54148209095
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.51%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.45%
+
+
+Loss is  215.886084318161
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.63%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.34%
+
+
+Loss is  214.72813108563423
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 73.38%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.14%
+
+
+Loss is  215.56781414151192
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.34%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.64%
+
+
+Loss is  222.50870487093925
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 73.96%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.55%
+
+
+Loss is  215.94222378730774
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.44%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.21%
+
+
+Loss is  214.6552324295044
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.35%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.94%
+
+
+Loss is  217.58945560455322
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.03%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 46.61%
+
+
+Loss is  380.7456320822239
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 10.0%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 10.0%
+
+
+Loss is  222.89099502563477
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 14.68%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 13.47%
+
+
+Loss is  263.2678379714489
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 10.0%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 9.98%
+
+
+Loss is  280.09869408607483
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 11.85%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 10.66%
+
+
+Loss is  296.24660432338715
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 27.09%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 21.97%
+
+
+Loss is  312.817307472229
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 47.46%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 29.17%
+
+
+Loss is  368.1077978014946
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.11%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 30.52%
+
+
+Loss is  400.1638813614845
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 50.05%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 32.13%
+
+
+Loss is  383.652656018734
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 55.22%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.2%
+
+
+Loss is  359.3284636735916
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.23%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.63%
+
+
+Loss is  346.63785380125046
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.82%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.36%
+
+
+Loss is  338.7721819281578
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.04%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.95%
+
+
+Loss is  319.59546077251434
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.28%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.08%
+
+
+Loss is  312.9283394217491
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.14%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.19%
+
+
+Loss is  317.40257996320724
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.53%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.61%
+
+
+Loss is  295.89717400074005
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.16%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.78%
+
+
+Loss is  292.9694862961769
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.61%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.43%
+
+
+Loss is  298.08255499601364
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.39%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.17%
+
+
+Loss is  296.43533086776733
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.76%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.82%
+
+
+Loss is  279.17164519429207
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.02%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.97%
+
+
+Loss is  275.76121509075165
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.49%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.27%
+
+
+Loss is  273.5746385753155
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.63%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.66%
+
+
+Loss is  270.83615750074387
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.49%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.02%
+
+
+Loss is  270.57957780361176
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.22%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.55%
+
+
+Loss is  262.0841726064682
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.47%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.91%
+
+
+Loss is  258.08412316441536
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.23%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.68%
+
+
+Loss is  260.6191503703594
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.86%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.82%
+
+
+Loss is  343.3053779602051
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.24%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 45.09%
+
+
+Loss is  283.7821518480778
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.26%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.71%
+
+
+Loss is  267.7700774371624
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.43%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.85%
+
+
+Loss is  257.97926765680313
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.78%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.58%
+
+
+Loss is  277.1072064936161
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.83%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.41%
+
+
+Loss is  273.9239179491997
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.18%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.56%
+
+
+Loss is  267.61277574300766
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.55%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.32%
+
+
+Loss is  271.65841206908226
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.94%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.61%
+
+
+Loss is  254.31379702687263
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.88%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.28%
+
+
+Loss is  241.71737045049667
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.14%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.64%
+
+
+Loss is  252.79599449038506
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 73.83%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.62%
+
+
+Loss is  248.0036217570305
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 72.53%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.38%
+
+
+Loss is  251.65376609563828
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.81%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.61%
+
+
+Loss is  238.21134066581726
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.19%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.47%
+
+
+Loss is  250.2224953174591
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.33%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.71%
+
+
+Loss is  246.7281604707241
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.7%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.67%
+
+
+Loss is  234.83487352728844
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.53%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.35%
+
+
+Loss is  236.5162625014782
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.92%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.33%
+
+
+Loss is  241.27792432904243
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.29%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.14%
+
+
+Loss is  222.22102192044258
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.73%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.92%
+
+
+Loss is  228.5788869857788
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.63%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.45%
+
+
+Loss is  219.67319682240486
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.0%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.21%
+
+
+Loss is  220.9956914782524
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.65%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.33%
+
+
+Loss is  214.3537961244583
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.02%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.61%
+
+
+Loss is  214.39676094055176
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.96%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.0%
+
+
+Loss is  218.25293189287186
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.71%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.12%
+
+
+Loss is  247.00927674770355
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.78%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.34%
+
+
+Loss is  244.37819799780846
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.59%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.11%
+
+
+Loss is  224.81993752717972
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.36%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.78%
+
+
+Loss is  224.36616849899292
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.38%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.47%
+
+
+Loss is  212.87891712784767
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.91%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.95%
+
+
+Loss is  215.55645388364792
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.88%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.39%
+
+
+Loss is  209.97266314923763
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.35%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.34%
+
+
+Loss is  213.04744246602058
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.16%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.14%
+
+
+Loss is  217.32900658249855
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.13%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.56%
+
+
+Loss is  211.3750246167183
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.04%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.6%
+
+
+Loss is  199.29377976059914
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.84%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.14%
+
+
+Loss is  188.52718210220337
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.65%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.94%
+
+
+Loss is  198.97487846016884
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.51%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.72%
+
+
+Loss is  217.73241862654686
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.16%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 44.25%
+
+
+Loss is  204.72529482841492
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.74%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.28%
+
+
+Loss is  190.11711305379868
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.61%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.2%
+
+
+Loss is  182.72913032770157
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.75%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.74%
+
+
+Loss is  187.5170021355152
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.51%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.82%
+
+
+Loss is  193.5501283109188
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.53%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.51%
+
+
+Loss is  205.64164145290852
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.74%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.82%
+
+
+Loss is  206.5614388883114
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 71.85%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.3%
+
+
+Loss is  202.75951248407364
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.72%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.97%
+
+
+Loss is  191.71670903265476
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.82%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.31%
+
+
+Loss is  178.9116908609867
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.4%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.6%
+
+
+... done!
+Testing the model under FGSM Attack using epsilon = 0, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 84.28%
+
+
+Testing the model under FGSM Attack using epsilon = 0.05, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 33.14%
+
+
+Testing the model under FGSM Attack using epsilon = 0.1, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 29.41%
+
+
+Testing the model under FGSM Attack using epsilon = 0.2, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 25.43%
+
+
+Testing the model under FGSM Attack using epsilon = 0.35, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 20.4%
+
+
+Testing the model under FGSM Attack using epsilon = 0.55, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 13.25%
+
+
+Testing the model under PGD Attack using epsilon = 0, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 84.28%
+
+
+Testing the model under PGD Attack using epsilon = 0.05, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 3.93%
+
+
+Testing the model under PGD Attack using epsilon = 0.01568627450980392, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 16.6%
+
+
+Testing the model under PGD Attack using epsilon = 0.1, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 1.92%
+
+
+Testing the model under PGD Attack using epsilon = 0.3, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 0.94%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 84.28%
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 83.53%
+Testing the model under FGSM Attack using epsilon = 0, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 83.53%
+
+
+Testing the model under FGSM Attack using epsilon = 0.05, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.92%
+
+
+Testing the model under FGSM Attack using epsilon = 0.1, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 22.77%
+
+
+Testing the model under FGSM Attack using epsilon = 0.2, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 18.84%
+
+
+Testing the model under FGSM Attack using epsilon = 0.35, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 18.42%
+
+
+Testing the model under FGSM Attack using epsilon = 0.55, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 16.86%
+
+
+Testing the model under PGD Attack using epsilon = 0, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 83.53%
+
+
+Testing the model under PGD Attack using epsilon = 0.05, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.12%
+
+
+Testing the model under PGD Attack using epsilon = 0.01568627450980392, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.32%
+
+
+Testing the model under PGD Attack using epsilon = 0.1, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 27.2%
+
+
+Testing the model under PGD Attack using epsilon = 0.3, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 4.83%
+
+
+Testing the model under PGD Attack using epsilon = 0.01568627450980392, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.15%
+
+
+Training the model using adversarial examples...
+Adversarial Training Progress:   0%|          | 0/200 [00:00<?, ?it/s]
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 32.33%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 20.99%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.77%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 22.99%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.2%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 24.91%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.71%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 28.27%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 43.09%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 26.95%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 48.4%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 28.71%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 50.87%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 31.84%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 52.05%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 31.08%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 49.39%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 31.44%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 53.45%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 32.5%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 53.83%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 33.73%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 56.63%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 34.01%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 54.87%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 34.78%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.79%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.92%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 57.76%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.49%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 57.99%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 34.95%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.91%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.33%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 57.01%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 33.82%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.27%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.52%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 57.23%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 34.94%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.24%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.11%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.31%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.19%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.5%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.05%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.29%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.84%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.87%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.83%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.09%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.26%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.39%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.69%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.41%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.76%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.54%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.37%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.77%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.3%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.12%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.6%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 52.7%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 32.83%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.05%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.72%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.69%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.76%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.19%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.96%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.68%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.18%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.23%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.04%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.51%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.27%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.69%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.67%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.9%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.4%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.28%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.5%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.44%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.66%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.3%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.54%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.81%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.35%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.62%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.04%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.2%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.95%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.48%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.48%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 57.62%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.5%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.74%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.26%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.34%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.59%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.75%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.99%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.85%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.04%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.43%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.19%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.99%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.64%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.21%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.42%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.4%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.59%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.8%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.04%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.73%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.75%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.75%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.74%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.36%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.79%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.23%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.15%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.28%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.32%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.24%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.63%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.38%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.07%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.08%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.37%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.67%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.19%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.03%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.55%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.67%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.89%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.06%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.43%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.18%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.0%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.28%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.69%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.33%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.98%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.44%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.57%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.21%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.29%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.65%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.66%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.23%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.76%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.76%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.25%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.22%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.8%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.63%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.01%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.75%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.99%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.53%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.28%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.46%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.07%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.98%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.47%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.06%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.31%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.39%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.32%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.48%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.11%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.92%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.71%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.14%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.28%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.55%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.45%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.0%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 34.85%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.45%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.43%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.18%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.95%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.27%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.38%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.89%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.2%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.95%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.75%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.13%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.89%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.12%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.37%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.84%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.52%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.39%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.39%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.47%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 34.49%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.44%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.52%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 57.9%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 34.23%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.16%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.86%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.21%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.69%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.45%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.74%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.5%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.27%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.77%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.89%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 57.72%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.22%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.0%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.54%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.03%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.58%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.12%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.47%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.22%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.07%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.72%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.93%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.87%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.03%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.22%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.64%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.65%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 25.8%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 57.86%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 34.58%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.56%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.36%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.36%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.21%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.78%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.69%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.07%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.58%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.51%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.24%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.9%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 34.87%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.47%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.37%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.99%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.24%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.78%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.45%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 58.07%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.55%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.06%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.29%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.27%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.27%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.44%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.62%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.46%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.49%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 60.77%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.41%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.56%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.59%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.34%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.83%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.05%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.08%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.54%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.37%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.05%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.32%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.53%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.42%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.16%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.42%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.8%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.35%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 62.2%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.53%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.25%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.89%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.36%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.14%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.92%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 37.23%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.25%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.1%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.82%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.11%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.29%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.44%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 10.0%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 10.0%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.57%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 35.8%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 59.91%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 36.57%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.86%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.88%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.79%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.31%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.79%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.23%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.19%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.42%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.69%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.64%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 61.94%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.02%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.46%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 42.16%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.23%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.57%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.14%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.93%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.18%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.64%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.73%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.28%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.35%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.64%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.28%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.63%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 63.62%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 38.91%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 70.34%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.99%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.47%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.48%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.46%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.48%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.63%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.73%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.96%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.39%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.78%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.26%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.93%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.54%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.88%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.09%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.5%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.75%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.91%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.47%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.44%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.07%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.3%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.03%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.67%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.4%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.35%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.32%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.33%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.79%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.64%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.27%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.61%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.97%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.82%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.86%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.74%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.61%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.53%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.71%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.8%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.43%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.65%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.77%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.2%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.02%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 66.93%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.39%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.05%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.03%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.09%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.75%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.25%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.15%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.2%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.23%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 65.29%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.08%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 64.09%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.58%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.78%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.48%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.38%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.68%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 68.04%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 40.43%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.55%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.07%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 69.13%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 41.42%
+
+
+Testing the model...
+Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 67.73%
+Testing the model under FGSM Attack using epsilon = 0.03137254901960784, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 39.99%
+
+
+... done!
+Testing the model under FGSM Attack using epsilon = 0, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 74.85%
+
+
+Testing the model under FGSM Attack using epsilon = 0.05, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 22.43%
+
+
+Testing the model under FGSM Attack using epsilon = 0.1, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 11.63%
+
+
+Testing the model under FGSM Attack using epsilon = 0.2, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 7.25%
+
+
+Testing the model under FGSM Attack using epsilon = 0.35, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 6.19%
+
+
+Testing the model under FGSM Attack using epsilon = 0.55, alpha = None...
+FGSM Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 6.5%
+
+
+Testing the model under PGD Attack using epsilon = 0, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 74.85%
+
+
+Testing the model under PGD Attack using epsilon = 0.05, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 19.92%
+
+
+Testing the model under PGD Attack using epsilon = 0.01568627450980392, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 47.61%
+
+
+Testing the model under PGD Attack using epsilon = 0.1, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 14.33%
+
+
+Testing the model under PGD Attack using epsilon = 0.3, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 7.91%
+
+
+Testing the model under PGD Attack using epsilon = 0.01568627450980392, alpha = 0.00784313725490196...
+PGD Attack Testing Progress:   0%|          | 0/79 [00:00<?, ?it/s]
+... done! Accuracy: 47.34%
+
+

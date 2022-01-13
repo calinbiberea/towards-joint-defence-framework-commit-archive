@@ -28,7 +28,7 @@ print("Notebook will use PyTorch Device: " + device.upper())
 def standard_training(
   trainSetLoader,
   load_if_available=False,
-  load_path="../models_data/MNIST/mnist_standard"
+  load_path="../models_data/FashionMNIST/fashion_mnist_standard"
 ):
     # Helps speed up operations
     scaler = torch.cuda.amp.GradScaler()
@@ -98,7 +98,7 @@ def adversarial_training(
   attack_name,
   attack_function,
   load_if_available=False,
-  load_path="../models_data/MNIST/mnist_adversarial",
+  load_path="../models_data/FashionMNIST/fashion_mnist_adversarial",
   **kwargs
 ):
     # Various training parameters
@@ -187,7 +187,7 @@ def interpolated_adversarial_training(
   attack_name,
   attack_function,
   load_if_available=False,
-  load_path="../models_data/MNIST/mnist_interpolated_adversarial",
+  load_path="../models_data/FashionMNIST/fashion_mnist_interpolated_adversarial",
   **kwargs
 ):
     # Various training parameters
@@ -311,7 +311,7 @@ def dual_adversarial_training(
   attack_function1,
   attack_function2,
   load_if_available=False,
-  load_path="../models_data/MNIST/mnist_dual",
+  load_path="../models_data/FashionMNIST/fashion_mnist_dual",
   **kwargs
 ):
     # Various training parameters
@@ -411,7 +411,7 @@ def dual_adversarial_training(
 def jacobian_training(
   trainSetLoader,
   load_if_available=False,
-  load_path="../models_data/MNIST/mnist_jacobian",
+  load_path="../models_data/FashionMNIST/fashion_mnist_jacobian",
   **kwargs):
     # Various training parameters
     epochs = 20
@@ -481,7 +481,7 @@ def ALP_training(
   attack_name,
   attack_function,
   load_if_available=False,
-  load_path="../models_data/MNIST/mnist_interpolated_adversarial",
+  load_path="../models_data/FashionMNIST/fashion_mnist_alp",
   **kwargs
 ):
     # Various training parameters
@@ -564,6 +564,116 @@ def ALP_training(
                 optimizer.step()
 
     print("... done!")
+
+    # Make sure the model is in eval mode before returning
+    model.eval()
+
+    return model
+
+
+def triple_adversarial_training(
+  trainSetLoader,
+  attack_function1,
+  attack_function2,
+  attack_function3,
+  load_if_available=False,
+  load_path="../models_data/FashionMNIST/fashion_mnist_triple",
+  **kwargs
+):
+    # Various training parameters
+    epochs = 20
+    learning_rate = 0.01
+
+    # Network parameters
+    loss_function = nn.CrossEntropyLoss()
+    model = lenet.LeNet5().to(device)
+    model.train()
+
+    # Consider using ADAM here as another gradient descent algorithm
+    optimizer = torch.optim.SGD(
+        model.parameters(), lr=learning_rate, momentum=0.9, weight_decay=5e-4
+    )
+
+    # If a trained model already exists, give up the training part
+    if load_if_available and os.path.isfile(load_path):
+        print("Found already trained model...")
+
+        model = torch.load(load_path)
+
+        print("... loaded!")
+    else:
+        print("Training the model...")
+
+        # Check if using epsilon
+        if "epsilon" in kwargs:
+            epsilon = kwargs["epsilon"]
+        else:
+            epsilon = None
+
+        # Check if using alpha
+        if "alpha" in kwargs:
+            alpha = kwargs["alpha"]
+        else:
+            alpha = None
+
+        # Get iterations
+        if "iterations" in kwargs:
+            iterations = kwargs["iterations"]
+        else:
+            iterations = None
+
+        # Use a pretty progress bar to show updates
+        for epoch in tnrange(epochs, desc="Adversarial Training Progress"):
+            for _, (images, labels) in enumerate(tqdm(trainSetLoader, desc="Batches")):
+                # Cast to proper tensors
+                images, labels = images.to(device), labels.to(device)
+
+                # Run the attack
+                model.eval()
+                perturbed_images1 = attack_function1(
+                    images,
+                    labels,
+                    model,
+                    loss_function,
+                    epsilon=epsilon,
+                    alpha=alpha,
+                    scale=True,
+                    iterations=iterations,
+                )
+                perturbed_images2 = attack_function2(
+                    images,
+                    labels,
+                    model,
+                    loss_function,
+                    epsilon=epsilon,
+                    alpha=alpha,
+                    scale=True,
+                    iterations=iterations,
+                )
+                # The third attack is imported from library (DeepFool or C&W)
+                perturbed_images3 = attack_function3(
+                    images,
+                    labels,
+                )
+                model.train()
+
+                # Predict and optimise
+                optimizer.zero_grad()
+
+                logits1 = model(perturbed_images1)
+                logits2 = model(perturbed_images2)
+                logits3 = model(perturbed_images3)
+                loss1 = loss_function(logits1, labels)
+                loss2 = loss_function(logits2, labels)
+                loss3 = loss_function(logits3, labels)
+
+                loss = (loss1 + loss2 + loss3) / 3
+
+                # Gradient descent
+                loss.backward()
+                optimizer.step()
+
+        print("... done!")
 
     # Make sure the model is in eval mode before returning
     model.eval()
