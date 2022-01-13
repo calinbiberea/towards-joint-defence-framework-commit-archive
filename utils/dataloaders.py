@@ -63,20 +63,20 @@ def get_CIFAR10_data_loaders(
         batch_size=batchSize,
         sampler=trainSetSampler,
         pin_memory=True,
-        num_workers=8
+        num_workers=4
     )
     validationSetLoader = DataUtils.DataLoader(
         validationSet, batch_size=batchSize,
         sampler=validationSetSampler,
         pin_memory=True,
-        num_workers=8
+        num_workers=4
     )
     testSetLoader = DataUtils.DataLoader(
         testSet,
         batch_size=batchSize,
         shuffle=False,
         pin_memory=True,
-        num_workers=8
+        num_workers=4
     )
 
     # Return the loaders
