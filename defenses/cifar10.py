@@ -49,9 +49,6 @@ def standard_training(
   load_if_available=False,
   load_path="../models_data/CIFAR10/cifar10_standard"
 ):
-    # Helps speed up operations
-    scaler = torch.cuda.amp.GradScaler()
-
     # Number of epochs is decided by training length
     if long_training:
         epochs = 200
@@ -84,6 +81,9 @@ def standard_training(
 
         # Use a pretty progress bar to show updates
         for epoch in tnrange(epochs, desc="Training Progress"):
+            # Print loss results
+            total_epoch_loss = 0
+
             # Adjust the learning rate
             adjust_learning_rate(optimizer, epoch, learning_rate, long_training)
 
@@ -98,20 +98,21 @@ def standard_training(
                 logits = model(images)
 
                 # Calculate loss
-                with torch.cuda.amp.autocast():
-                    loss = loss_function(logits, labels)
+                loss = loss_function(logits, labels)
 
                 # Gradient descent
-                scaler.scale(loss).backward()
+                loss.backward()
+
+                # Add total accumulated loss
+                total_epoch_loss += loss.item()
 
                 # Also clip the gradients (ReLU leads to vanishing or
                 # exploding gradients)
                 torch.nn.utils.clip_grad_norm_(model.parameters(), 10)
 
-                scaler.step(optimizer)
+                optimizer.step()
 
-                # Updates the scale for next iteration
-                scaler.update()
+            print("Loss at epoch {} is {}".format(epoch, total_epoch_loss))
 
         print("... done!")
 
