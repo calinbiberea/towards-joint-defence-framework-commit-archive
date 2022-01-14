@@ -14,10 +14,13 @@ import defenses.iat as iat
 # For Jacobian Regularization
 from jacobian import JacobianReg
 
+# For Various Attack
+import torchattacks
+import advertorch
+
 # This here actually adds the path
 sys.path.append("../")
 import models.lenet as lenet
-
 
 # Define the `device` PyTorch will be running on, please hope it is CUDA
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -575,7 +578,7 @@ def triple_adversarial_training(
   trainSetLoader,
   attack_function1,
   attack_function2,
-  attack_function3,
+  attack_name3,
   load_if_available=False,
   load_path="../models_data/FashionMNIST/fashion_mnist_triple",
   **kwargs
@@ -603,6 +606,12 @@ def triple_adversarial_training(
         print("... loaded!")
     else:
         print("Training the model...")
+
+        # Decide the third attack based on the passed name
+        if attack_name3 == "CW":
+          attack_function3 = torchattacks.CW(model, c=20)
+        else:
+          attack_function3 = advertorch.attacks.L2PGDAttack(model, loss_fn=nn.CrossEntropyLoss(), eps=0.45, nb_iter=50, eps_iter=0.1, rand_init=True, clip_min=0.0, clip_max=1.0, targeted=False)
 
         # Check if using epsilon
         if "epsilon" in kwargs:
