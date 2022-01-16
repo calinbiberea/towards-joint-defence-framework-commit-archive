@@ -97,6 +97,7 @@ if args.training_method == "interpolated_pgd":
         "PGD",
         attacks["PGD"],
         load_if_available=True,
+        clip=False,
         load_path=SAVE_LOAD_ROOT + "/cifar10_interpolated_pgd",
         epsilon=(8 / 255),
         alpha=(2 / 255),
@@ -154,3 +155,20 @@ if args.training_method == "alp":
 
     # Save the model
     torch.save(alp_model, SAVE_LOAD_ROOT + "/cifar10_alp")
+
+if args.training_method == "jacobian_alp":
+    jacobian_alp_model = cifar10.jacobian_ALP_training(
+        trainSetLoader,
+        "PGD",
+        attacks["PGD"],
+        load_if_available=True,
+        load_path=SAVE_LOAD_ROOT + "/cifar10_jacobian_alp",
+        epsilon=(8 / 255),
+        alpha=(2 / 255),
+        iterations=7,
+    )
+
+    clean_test.test_trained_model(jacobian_alp_model, testSetLoader)
+
+    # Save the model
+    torch.save(jacobian_alp_model, SAVE_LOAD_ROOT + "/cifar10_jacobian_alp")
