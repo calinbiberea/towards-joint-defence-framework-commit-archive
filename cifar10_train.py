@@ -97,7 +97,7 @@ if args.training_method == "interpolated_pgd":
         "PGD",
         attacks["PGD"],
         load_if_available=True,
-        clip=False,
+        clip=True,
         load_path=SAVE_LOAD_ROOT + "/cifar10_interpolated_pgd",
         epsilon=(8 / 255),
         alpha=(2 / 255),

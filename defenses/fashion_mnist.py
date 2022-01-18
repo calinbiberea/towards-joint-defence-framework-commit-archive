@@ -567,7 +567,7 @@ def ALP_training(
 
                 optimizer.step()
 
-    print("... done!")
+        print("... done!")
 
     # Make sure the model is in eval mode before returning
     model.eval()
@@ -791,7 +791,7 @@ def jacobian_ALP_training(
 
                 optimizer.step()
 
-    print("... done!")
+        print("... done!")
 
     # Make sure the model is in eval mode before returning
     model.eval()

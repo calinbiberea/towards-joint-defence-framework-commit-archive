@@ -358,7 +358,7 @@ def interpolated_adversarial_training(
                 # Also clip the gradients (ReLU leads to vanishing or
                 # exploding gradients)
                 if clip:
-                    torch.nn.utils.clip_grad_norm_(model.parameters(), 10)
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), 15)
 
                 optimizer.step()
 
@@ -672,7 +672,7 @@ def ALP_training(
 
                 optimizer.step()
 
-    print("... done!")
+        print("... done!")
 
     # Make sure the model is in eval mode before returning
     model.eval()
@@ -919,7 +919,7 @@ def jacobian_ALP_training(
 
                 optimizer.step()
 
-    print("... done!")
+        print("... done!")
 
     # Make sure the model is in eval mode before returning
     model.eval()
