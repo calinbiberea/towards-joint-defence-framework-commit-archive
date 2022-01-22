@@ -14,6 +14,9 @@ import defenses.iat as iat
 # For Jacobian Regularization
 from jacobian import JacobianReg
 
+# For testing
+import utils.clean_test as clean_test
+
 # This here actually adds the path
 sys.path.append("../")
 import models.resnet as resnet
@@ -38,6 +41,23 @@ def adjust_learning_rate(optimizer, epoch, learning_rate, long_training):
         actual_learning_rate = 0.01
     if epoch >= second_update_threshold:
         actual_learning_rate = 0.001
+    for param_group in optimizer.param_groups:
+        param_group["lr"] = actual_learning_rate
+
+
+def adjust_learning_rate_alternative(optimizer, epoch, learning_rate, long_training):
+    actual_learning_rate = learning_rate
+    if long_training:
+        first_update_threshold = 75
+        second_update_threshold = 150
+    else:
+        first_update_threshold = 20
+        second_update_threshold = 25
+
+    if epoch >= first_update_threshold:
+        actual_learning_rate = 0.05
+    if epoch >= second_update_threshold:
+        actual_learning_rate = 0.01
     for param_group in optimizer.param_groups:
         param_group["lr"] = actual_learning_rate
 
@@ -236,6 +256,8 @@ def interpolated_adversarial_training(
   long_training=True,
   load_if_available=False,
   clip=True,
+  verbose=False,
+  test=False,
   load_path="../models_data/CIFAR10/cifar10_interpolated_adversarial",
   **kwargs
 ):
@@ -287,10 +309,17 @@ def interpolated_adversarial_training(
         else:
             iterations = None
 
+        # Get testSetLoader if testing required
+        if test and "testSetLoader" in kwargs:
+            testSetLoader = kwargs["testSetLoader"]
+
         # Use a pretty progress bar to show updates
         for epoch in tnrange(epochs, desc="Adversarial Training Progress"):
+            # Calculate loss:
+            total_loss = 0
+
             # Adjust the learning rate
-            adjust_learning_rate(optimizer, epoch, learning_rate, long_training)
+            adjust_learning_rate_alternative(optimizer, epoch, learning_rate, long_training)
 
             for _, (images, labels) in enumerate(tqdm(trainSetLoader, desc="Batches")):
                 # Cast to proper tensors
@@ -352,15 +381,24 @@ def interpolated_adversarial_training(
                 # Take average of the two losses
                 loss = (benign_loss + adversarial_loss) / 2
 
+                # Gather loss
+                total_loss += loss.item()
+
                 # Gradient descent
                 loss.backward()
 
                 # Also clip the gradients (ReLU leads to vanishing or
                 # exploding gradients)
                 if clip:
-                    torch.nn.utils.clip_grad_norm_(model.parameters(), 15)
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), 25)
 
                 optimizer.step()
+
+            if test:
+                clean_test.test_trained_model(model, testSetLoader)
+
+            if verbose:
+                print("Epoch {} loss is {}".format(epoch, total_loss))
 
         print("... done!")
 
@@ -410,10 +448,16 @@ def dual_adversarial_training(
         print("Training the model...")
 
         # Check if using epsilon
-        if "epsilon" in kwargs:
-            epsilon = kwargs["epsilon"]
+        if "epsilon1" in kwargs:
+            epsilon1 = kwargs["epsilon1"]
         else:
-            epsilon = None
+            epsilon1 = None
+
+        # Check if using epsilon
+        if "epsilon1" in kwargs:
+            epsilon2 = kwargs["epsilon1"]
+        else:
+            epsilon2 = None
 
         # Check if using alpha
         if "alpha" in kwargs:
@@ -443,7 +487,7 @@ def dual_adversarial_training(
                     labels,
                     model,
                     loss_function,
-                    epsilon=epsilon,
+                    epsilon=epsilon1,
                     alpha=alpha,
                     scale=True,
                     iterations=iterations,
@@ -453,7 +497,7 @@ def dual_adversarial_training(
                     labels,
                     model,
                     loss_function,
-                    epsilon=epsilon,
+                    epsilon=epsilon2,
                     alpha=alpha,
                     scale=True,
                     iterations=iterations,

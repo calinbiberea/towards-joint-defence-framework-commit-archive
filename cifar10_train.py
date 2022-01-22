@@ -117,7 +117,8 @@ if args.training_method == "dual":
         attacks["FGSM"],
         load_if_available=True,
         load_path=SAVE_LOAD_ROOT + "/cifar10_dual",
-        epsilon=(8 / 255),
+        epsilon1=(8 / 255),
+        epsilon2=0.1,
         alpha=(2 / 255),
         iterations=7,
     )
