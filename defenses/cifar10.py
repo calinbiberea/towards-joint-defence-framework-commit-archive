@@ -278,7 +278,7 @@ def interpolated_adversarial_training(
 
     # Consider using ADAM here as another gradient descent algorithm
     optimizer = torch.optim.SGD(
-        model.parameters(), lr=learning_rate, momentum=0.9, weight_decay=0.0002
+        model.parameters(), lr=learning_rate, momentum=0.9, weight_decay=0.0004
     )
 
     # If a trained model already exists, give up the training part
@@ -390,7 +390,7 @@ def interpolated_adversarial_training(
                 # Also clip the gradients (ReLU leads to vanishing or
                 # exploding gradients)
                 if clip:
-                    torch.nn.utils.clip_grad_norm_(model.parameters(), 25)
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), 10)
 
                 optimizer.step()
 

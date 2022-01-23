@@ -218,12 +218,24 @@ def l2_adversarial_training(
     else:
         print("Training the model...")
 
-        # Define the attack
-        attack = torchattacks.CW(model, c=20)
+        # Check if more epochs suplied
+        if "steps" in kwargs:
+            steps = kwargs["steps"]
+        else:
+            steps = 1000
+
+        # Check if more epochs suplied
+        if "c" in kwargs:
+            c = kwargs["c"]
+        else:
+            c = 1000
 
         # Check if more epochs suplied
         if "epochs" in kwargs:
             epochs = kwargs["epochs"]
+
+        # Define the attack
+        attack = torchattacks.CW(model, c=c, steps=steps)
 
         # Use a pretty progress bar to show updates
         for epoch in tnrange(epochs, desc="Adversarial Training Progress"):
