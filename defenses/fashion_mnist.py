@@ -128,6 +128,10 @@ def adversarial_training(
     else:
         print("Training the model...")
 
+        # Check if more epochs suplied
+        if "epochs" in kwargs:
+            epochs = kwargs["epochs"]
+
         # Check if using epsilon
         if "epsilon" in kwargs:
             epsilon = kwargs["epsilon"]
@@ -359,6 +363,30 @@ def dual_adversarial_training(
         else:
             iterations = None
 
+        use_cw = False
+
+        # Sanity check to use CW
+        if attack_function2 is None:
+            use_cw = True
+
+            if "steps" in kwargs:
+                steps = kwargs["steps"]
+            else:
+                steps = 1000
+
+            # Check if more epochs suplied
+            if "c" in kwargs:
+                c = kwargs["c"]
+            else:
+                c = 1000
+
+            # Check if more epochs suplied
+            if "epochs" in kwargs:
+                epochs = kwargs["epochs"]
+
+            # Define the attack
+            attack_function2 = torchattacks.CW(model, c=c, steps=steps)
+
         # Use a pretty progress bar to show updates
         for epoch in tnrange(epochs, desc="Adversarial Training Progress"):
             for _, (images, labels) in enumerate(tqdm(trainSetLoader, desc="Batches")):
@@ -377,16 +405,24 @@ def dual_adversarial_training(
                     scale=True,
                     iterations=iterations,
                 )
-                perturbed_images2 = attack_function2(
-                    images,
-                    labels,
-                    model,
-                    loss_function,
-                    epsilon=epsilon,
-                    alpha=alpha,
-                    scale=True,
-                    iterations=iterations,
-                )
+
+                # Include CW checks to allow smarter uses
+                if not use_cw:
+                    perturbed_images2 = attack_function2(
+                        images,
+                        labels,
+                        model,
+                        loss_function,
+                        epsilon=epsilon,
+                        alpha=alpha,
+                        scale=True,
+                        iterations=iterations,
+                    )
+                else:
+                    perturbed_images2 = attack_function2(
+                        images,
+                        labels,
+                    )
                 model.train()
 
                 # Predict and optimise
@@ -785,6 +821,85 @@ def jacobian_ALP_training(
 
                 # Total loss
                 loss = loss + jacobian_reg_lambda * jacobian_reg_loss
+
+                # Gradient descent
+                loss.backward()
+
+                optimizer.step()
+
+        print("... done!")
+
+    # Make sure the model is in eval mode before returning
+    model.eval()
+
+    return model
+
+
+def l2_adversarial_training(
+  trainSetLoader,
+  load_if_available=False,
+  load_path="../models_data/MNIST/mnist_l2_adversarial",
+  **kwargs
+):
+    # Various training parameters
+    epochs = 20
+    learning_rate = 0.01
+
+    # Network parameters
+    loss_function = nn.CrossEntropyLoss()
+    model = lenet.LeNet5().to(device)
+    model.train()
+
+    # Consider using ADAM here as another gradient descent algorithm
+    optimizer = torch.optim.SGD(
+        model.parameters(), lr=learning_rate, momentum=0.9, weight_decay=5e-4
+    )
+
+    # If a trained model already exists, give up the training part
+    if load_if_available and os.path.isfile(load_path):
+        print("Found already trained model...")
+
+        model = torch.load(load_path)
+
+        print("... loaded!")
+    else:
+        print("Training the model...")
+
+        # Check if more epochs suplied
+        if "steps" in kwargs:
+            steps = kwargs["steps"]
+        else:
+            steps = 1000
+
+        # Check if more epochs suplied
+        if "c" in kwargs:
+            c = kwargs["c"]
+        else:
+            c = 1000
+
+        # Check if more epochs suplied
+        if "epochs" in kwargs:
+            epochs = kwargs["epochs"]
+
+        # Define the attack
+        attack = torchattacks.CW(model, c=c, steps=steps)
+
+        # Use a pretty progress bar to show updates
+        for epoch in tnrange(epochs, desc="Adversarial Training Progress"):
+            for _, (images, labels) in enumerate(tqdm(trainSetLoader, desc="Batches")):
+                # Cast to proper tensors
+                images, labels = images.to(device), labels.to(device)
+
+                # Run the attack
+                model.eval()
+                perturbed_images = attack(images, labels)
+                model.train()
+
+                # Predict and optimise
+                optimizer.zero_grad()
+
+                logits = model(perturbed_images)
+                loss = loss_function(logits, labels)
 
                 # Gradient descent
                 loss.backward()

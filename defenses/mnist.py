@@ -235,7 +235,7 @@ def l2_adversarial_training(
             epochs = kwargs["epochs"]
 
         # Define the attack
-        attack = torchattacks.CW(model, c=c, steps=steps)
+        attack_function = torchattacks.CW(model, c=c, steps=steps)
 
         # Use a pretty progress bar to show updates
         for epoch in tnrange(epochs, desc="Adversarial Training Progress"):
@@ -245,7 +245,7 @@ def l2_adversarial_training(
 
                 # Run the attack
                 model.eval()
-                perturbed_images = attack(images, labels)
+                perturbed_images = attack_function(images, labels)
                 model.train()
 
                 # Predict and optimise
@@ -396,7 +396,7 @@ def dual_adversarial_training(
   attack_function1,
   attack_function2,
   load_if_available=False,
-  load_path="../models_data/MNIST/mnist_dual",
+  load_path="../models_data/FashionMNIST/fashion_mnist_dual",
   **kwargs
 ):
     # Various training parameters
@@ -441,6 +441,30 @@ def dual_adversarial_training(
         else:
             iterations = None
 
+        use_cw = False
+
+        # Sanity check to use CW
+        if attack_function2 is None:
+            use_cw = True
+
+            if "steps" in kwargs:
+                steps = kwargs["steps"]
+            else:
+                steps = 1000
+
+            # Check if more epochs suplied
+            if "c" in kwargs:
+                c = kwargs["c"]
+            else:
+                c = 1000
+
+            # Check if more epochs suplied
+            if "epochs" in kwargs:
+                epochs = kwargs["epochs"]
+
+            # Define the attack
+            attack_function2 = torchattacks.CW(model, c=c, steps=steps)
+
         # Use a pretty progress bar to show updates
         for epoch in tnrange(epochs, desc="Adversarial Training Progress"):
             for _, (images, labels) in enumerate(tqdm(trainSetLoader, desc="Batches")):
@@ -459,16 +483,24 @@ def dual_adversarial_training(
                     scale=True,
                     iterations=iterations,
                 )
-                perturbed_images2 = attack_function2(
-                    images,
-                    labels,
-                    model,
-                    loss_function,
-                    epsilon=epsilon,
-                    alpha=alpha,
-                    scale=True,
-                    iterations=iterations,
-                )
+
+                # Include CW checks to allow smarter uses
+                if not use_cw:
+                    perturbed_images2 = attack_function2(
+                        images,
+                        labels,
+                        model,
+                        loss_function,
+                        epsilon=epsilon,
+                        alpha=alpha,
+                        scale=True,
+                        iterations=iterations,
+                    )
+                else:
+                    perturbed_images2 = attack_function2(
+                        images,
+                        labels,
+                    )
                 model.train()
 
                 # Predict and optimise

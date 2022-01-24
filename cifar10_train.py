@@ -173,3 +173,38 @@ if args.training_method == "jacobian_alp":
 
     # Save the model
     torch.save(jacobian_alp_model, SAVE_LOAD_ROOT + "/cifar10_jacobian_alp")
+
+
+if args.training_method == "cw":
+    cw_model = cifar10.l2_adversarial_training(
+        trainSetLoader,
+        load_if_available=True,
+        load_path=SAVE_LOAD_ROOT + "/cifar10_cw",
+        steps=100,
+        c=1,
+    )
+
+    clean_test.test_trained_model(cw_model, testSetLoader)
+
+    # Save the model
+    torch.save(cw_model, SAVE_LOAD_ROOT + "/cifar10_cw")
+
+
+if args.training_method == "dual_pgd_cw":
+    dual_pgd_cw_model = cifar10.dual_adversarial_training(
+          trainSetLoader,
+          attack_function1=attacks["PGD"],
+          attack_function2=None,
+          load_if_available=True,
+          load_path=SAVE_LOAD_ROOT + "/cifar10_dual_pgd_cw",
+          epsilon1=(8 / 255),
+          alpha=(2 / 255),
+          iterations=7,
+          steps=100,
+          c=1,
+    )
+
+    clean_test.test_trained_model(dual_pgd_cw_model, testSetLoader)
+
+    # Save the model
+    torch.save(dual_pgd_cw_model, SAVE_LOAD_ROOT + "/cifar10_dual_pgd_cw")
