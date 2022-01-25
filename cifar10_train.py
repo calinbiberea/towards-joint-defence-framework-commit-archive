@@ -12,7 +12,7 @@ import attacks.fgsm as fgsm
 import argparse
 import utils.dataloaders as dataloaders
 import utils.clean_test as clean_test
-import defenses.cifar10 as cifar10
+import defences.cifar10 as cifar10
 import torch
 
 
