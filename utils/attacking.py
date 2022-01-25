@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 from tqdm.notebook import tqdm
 
-
 # Define the `device` PyTorch will be running on, please hope it is CUDA
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -48,7 +47,7 @@ def attack_model(model, testSetLoader, attack_name, attack_function, **kwargs):
 
     # Use a pretty progress bar to show updates
     for j, (images, labels) in enumerate(
-        tqdm(testSetLoader, desc="{} Attack Testing Progress".format(attack_name))
+        tqdm(testSetLoader, desc="{} Attack Testing Progress".format(attack_name), leave=False)
     ):
         # Cast to proper tensor
         images, labels = images.to(device), labels.to(device)

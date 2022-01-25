@@ -176,7 +176,7 @@ if args.training_method == "jacobian_alp":
 
 
 if args.training_method == "cw":
-    cw_model = cifar10.l2_adversarial_training(
+    cw_model = cifar10.cw_adversarial_training(
         trainSetLoader,
         load_if_available=True,
         load_path=SAVE_LOAD_ROOT + "/cifar10_cw",

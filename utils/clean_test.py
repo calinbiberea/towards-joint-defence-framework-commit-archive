@@ -13,7 +13,7 @@ def test_trained_model(model, testSetLoader):
     print("Testing the model...")
 
     # Use a pretty progress bar to show updates
-    for j, (images, labels) in enumerate(tqdm(testSetLoader, desc="Testing Progress")):
+    for j, (images, labels) in enumerate(tqdm(testSetLoader, desc="Testing Progress", leave=False)):
         # Cast to proper tensor
         images, labels = images.to(device), labels.to(device)
 
