@@ -73,3 +73,33 @@ class LeNet5(nn.Module):
         # Output
         output = self.fc2(output)
         return output
+
+    def feature_list(self, x):
+        input = x
+
+        out_list = []
+
+        # First layer (ReLU activation), max-pool with 2x2 grid
+        output = self.conv1(input)
+        output = F.relu(output)
+        output = self.max_pool_1(output)
+        out_list.append(output)
+
+        # Second Layer
+        output = self.conv2(output)
+        output = F.relu(output)
+        output = self.max_pool_2(output)
+        out_list.append(output)
+
+        # Flatten to match network (16 * 5 * 5), given
+        # https://stackoverflow.com/a/42482819/7551231
+        output = output.view(-1, 64 * 7 * 7)
+
+        # Third layer
+        output = self.fc1(output)
+        output = F.relu(output)
+        out_list.append(output)
+
+        # Output
+        output = self.fc2(output)
+        return output, out_list

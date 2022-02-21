@@ -155,6 +155,34 @@ class ResNet(nn.Module):
         # Final return the 10 classes predictions
         return output
 
+    def feature_list(self, x):
+        input = x
+        out_list = []
+
+        # Put the input in the initial layer
+        output = self.conv1(input)
+        output = self.bn1(output)
+        output = F.relu(output)
+        out_list.append(output)
+
+        # Go through the residual layers
+        output = self.layer1(output)
+        out_list.append(output)
+        output = self.layer2(output)
+        out_list.append(output)
+        output = self.layer3(output)
+        out_list.append(output)
+        output = self.layer4(output)
+        out_list.append(output)
+
+        # Average and then get one line
+        output = F.avg_pool2d(output, 4)
+        output = output.view(output.size(0), -1)
+        output = self.linear(output)
+
+        # Final return the 10 classes predictions
+        return output, out_list
+
 
 def ResNet18():
     return ResNet(ResNetBlock, [2, 2, 2, 2])
