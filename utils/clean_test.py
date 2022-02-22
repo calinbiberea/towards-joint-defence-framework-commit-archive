@@ -18,7 +18,8 @@ def test_trained_model(model, testSetLoader):
         images, labels = images.to(device), labels.to(device)
 
         # Predict
-        logits = model(images)
+        with torch.no_grad():
+            logits = model(images)
 
         # The highest class represents the chosen class
         _, preds = torch.max(logits, 1)
