@@ -74,6 +74,7 @@ class LeNet5(nn.Module):
         output = self.fc2(output)
         return output
 
+    # Returns an array of mostly the shape of the features
     def feature_list(self, x):
         input = x
 
@@ -102,4 +103,75 @@ class LeNet5(nn.Module):
 
         # Output
         output = self.fc2(output)
+        
         return output, out_list
+
+    # Returns a feature extracted at a specific layer
+    def intermediate_forward(self, x, layer_index):
+        input = x
+
+        if (layer_index == 0):
+            # First layer (ReLU activation), max-pool with 2x2 grid
+            output = self.conv1(input)
+            output = F.relu(output)
+            output = self.max_pool_1(output)
+
+            return output
+        elif (layer_index == 1):
+            # First layer (ReLU activation), max-pool with 2x2 grid
+            output = self.conv1(input)
+            output = F.relu(output)
+            output = self.max_pool_1(output)
+
+            # Second Layer
+            output = self.conv2(output)
+            output = F.relu(output)
+            output = self.max_pool_2(output)
+
+            return output
+        elif (layer_index == 2):
+            # First layer (ReLU activation), max-pool with 2x2 grid
+            output = self.conv1(input)
+            output = F.relu(output)
+            output = self.max_pool_1(output)
+
+            # Second Layer
+            output = self.conv2(output)
+            output = F.relu(output)
+            output = self.max_pool_2(output)
+
+            # Flatten to match network (16 * 5 * 5), given
+            # https://stackoverflow.com/a/42482819/7551231
+            output = output.view(-1, 64 * 7 * 7)
+
+            # Third layer
+            output = self.fc1(output)
+            output = F.relu(output)
+
+            return output
+
+        raise Exception('Invalid layer index')
+
+    # Returns features of penultimate layer (should coincide with 3rd layer for lenet)
+    def penultimate_forward(self, x):
+        input = x
+
+        # First layer (ReLU activation), max-pool with 2x2 grid
+        output = self.conv1(input)
+        output = F.relu(output)
+        output = self.max_pool_1(output)
+
+        # Second Layer
+        output = self.conv2(output)
+        output = F.relu(output)
+        output = self.max_pool_2(output)
+
+        # Flatten to match network (16 * 5 * 5), given
+        # https://stackoverflow.com/a/42482819/7551231
+        output = output.view(-1, 64 * 7 * 7)
+
+        # Third layer
+        output = self.fc1(output)
+        output = F.relu(output)
+
+        return output
