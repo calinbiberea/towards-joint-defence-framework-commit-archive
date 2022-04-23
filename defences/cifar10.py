@@ -8,6 +8,7 @@ import defences.CIFAR10.standard_training as standard_training_utils
 import defences.CIFAR10.adversarial_training as adversarial_training_utils
 import defences.CIFAR10.dual_adversarial_training as dual_adversarial_training_utils
 import defences.CIFAR10.regularization as regularization_utils
+import defences.CIFAR10.framework as framework
 
 
 def standard_training(
@@ -177,6 +178,26 @@ def jacobian_ALP_training(
       trainSetLoader,
       attack_name,
       attack_function,
+      long_training,
+      load_if_available,
+      load_path,
+      **kwargs
+    )
+
+
+def framework_training(
+  trainSetLoader,
+  attack_function1,
+  attack_function2,
+  long_training=True,
+  load_if_available=False,
+  load_path="../models_data/FashionMNIST/fashion_mnist_alp",
+  **kwargs
+):
+    return framework.framework_training(
+      trainSetLoader,
+      attack_function1,
+      attack_function2,
       long_training,
       load_if_available,
       load_path,

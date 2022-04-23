@@ -190,6 +190,10 @@ def get_SVHN_data_loaders(
     trainSet = datasets.SVHN(
         root=DATA_ROOT, download=True, split='train', transform=trainSetTransform
     )
+    extraSet = datasets.SVHN(
+        DATA_ROOT, download=True, split='extra', transform=trainSetTransform
+    )
+    # trainSet = torch.utils.data.ConcatDataset([trainSet, extraSet])
     validationSet = datasets.SVHN(
         root=DATA_ROOT, download=True, split='train', transform=validationSetTransform
     )
