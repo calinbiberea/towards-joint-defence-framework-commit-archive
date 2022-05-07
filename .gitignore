@@ -133,3 +133,7 @@ dmypy.json
 
 # Make sure you don't push datasets to not break Github
 datasets/
+
+# Ignore checkpoints
+/models_data/SVHN/svhn_framework_*
+/models_data/CIFAR10/cifar_framework_*
