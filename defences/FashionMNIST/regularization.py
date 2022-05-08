@@ -34,7 +34,10 @@ def jacobian_training(
     model.train()
 
     jacobian_reg = JacobianReg()
-    jacobian_reg_lambda = 0.01
+    if "jac_lambda" in kwargs:
+        jacobian_reg_lambda = kwargs["jac_lambda"]
+    else:
+        jacobian_reg_lambda = 0.01
 
     # Consider using ADAM here as another gradient descent algorithm
     optimizer = torch.optim.SGD(
