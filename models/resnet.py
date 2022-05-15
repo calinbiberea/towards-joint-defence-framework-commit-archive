@@ -183,6 +183,45 @@ class ResNet(nn.Module):
         # Final return the 10 classes predictions
         return output, out_list
 
+    # Returns a feature extracted at a specific layer
+    def intermediate_forward(self, x, layer_index):
+        out = F.relu(self.bn1(self.conv1(x)))
+
+        if layer_index == 1:
+            out = self.layer1(out)
+
+        elif layer_index == 2:
+            out = self.layer1(out)
+            out = self.layer2(out)
+
+        elif layer_index == 3:
+            out = self.layer1(out)
+            out = self.layer2(out)
+            out = self.layer3(out)
+
+        elif layer_index == 4:
+            out = self.layer1(out)
+            out = self.layer2(out)
+            out = self.layer3(out)
+            out = self.layer4(out)
+
+        return out
+
+    # Returns features of penultimate layer
+    def penultimate_forward(self, x):
+        out = F.relu(self.bn1(self.conv1(x)))
+
+        out = self.layer1(out)
+        out = self.layer2(out)
+        out = self.layer3(out)
+
+        penultimate = self.layer4(out)
+        out = F.avg_pool2d(penultimate, 4)
+        out = out.view(out.size(0), -1)
+
+        y = self.linear(out)
+        return y, penultimate
+
 
 def ResNet18():
     return ResNet(ResNetBlock, [2, 2, 2, 2])

@@ -103,7 +103,7 @@ class LeNet5(nn.Module):
 
         # Output
         output = self.fc2(output)
-        
+
         return output, out_list
 
     # Returns a feature extracted at a specific layer
