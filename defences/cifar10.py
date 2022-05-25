@@ -171,7 +171,7 @@ def jacobian_ALP_training(
   attack_function,
   long_training=True,
   load_if_available=False,
-  load_path="../models_data/FashionMNIST/fashion_mnist_alp",
+  load_path="../models_data/CIFAR10/cifar10_jacobian_alp",
   **kwargs
 ):
     return regularization_utils.jacobian_ALP_training(
@@ -191,7 +191,7 @@ def framework_training(
   attack_function2,
   long_training=True,
   load_if_available=False,
-  load_path="../models_data/FashionMNIST/fashion_mnist_alp",
+  load_path="../models_data/CIFAR10/cifar10_framework",
   **kwargs
 ):
     return framework.framework_training(

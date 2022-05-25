@@ -137,3 +137,4 @@ datasets/
 # Ignore checkpoints
 /models_data/SVHN/svhn_framework_*
 /models_data/CIFAR10/cifar_framework_*
+/models_data/CIFAR10/cifar10_framework_*

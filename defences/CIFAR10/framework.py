@@ -15,7 +15,7 @@ from jacobian import JacobianReg
 
 # This here actually adds the path
 sys.path.append("../../")
-import models.resnet as resnet
+import models.resnet as resnet_hidden
 
 # Define the `device` PyTorch will be running on, please hope it is CUDA
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -46,7 +46,7 @@ def framework_training(
   attack_function2,
   long_training=True,
   load_if_available=False,
-  load_path="../models_data/CIFAR10/ramework",
+  load_path="../models_data/CIFAR10/framework",
   **kwargs
 ):
     # Number of epochs is decided by training length
@@ -59,7 +59,7 @@ def framework_training(
 
     # Network parameters
     loss_function = nn.CrossEntropyLoss()
-    model = resnet.ResNet18()
+    model = resnet_hidden.ResNet18()
     model = model.to(device)
     model = nn.DataParallel(model)
     model.train()
@@ -76,7 +76,7 @@ def framework_training(
     if load_if_available and os.path.isfile(load_path):
         print("Found already trained model...")
 
-        model = torch.load(load_path)
+        model.load_state_dict(torch.load(load_path))
 
         print("... loaded!")
     else:
@@ -182,12 +182,12 @@ def framework_training(
 
                 # Introduce Jacobian regularization
                 # Require gradients for Jacobian regularization
-                # images.requires_grad = True
+                images.requires_grad = True
 
-                # jacobian_reg_loss = jacobian_reg(images, logits1)
+                jacobian_reg_loss = jacobian_reg(images, model(images))
 
                 # Total loss
-                loss = loss  # + jacobian_reg_lambda * jacobian_reg_loss
+                loss = loss + jacobian_reg_lambda * jacobian_reg_loss
 
                 # Gradient descent
                 loss.backward()
@@ -202,7 +202,7 @@ def framework_training(
                 optimizer.step()
 
             print("Loss at epoch {} is {}".format(epoch, total_epoch_loss))
-            
+
             # Also save the model to avoid having fucked up progress
             torch.save(model, load_path + "_" + str(epoch))
 
