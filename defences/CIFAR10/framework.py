@@ -76,7 +76,7 @@ def framework_training(
     if load_if_available and os.path.isfile(load_path):
         print("Found already trained model...")
 
-        model.load_state_dict(torch.load(load_path))
+        model = torch.load(load_path)
 
         print("... loaded!")
     else:
